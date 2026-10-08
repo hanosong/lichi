@@ -1,0 +1,784 @@
+{
+  "printers": [
+    {
+      "id": "printer-47162b13-7c66-47a3-beb1-110236942858",
+      "machineCode": "4004879269",
+      "name": "lichi01",
+      "status": "1",
+      "addedAt": "2026-08-24T11:35:07.367Z",
+      "checkedAt": "2026-08-24T11:36:46.603Z"
+    }
+  ],
+  "templates": [
+    {
+      "id": "template-default",
+      "name": "经典信息标签",
+      "category": "宠物零食",
+      "width": 60,
+      "height": 40,
+      "fontSize": 12,
+      "showBorder": true,
+      "fields": [
+        "productName",
+        "price",
+        "ingredients",
+        "productionDate",
+        "storageMethod"
+      ],
+      "updatedAt": "2026-08-24T12:16:23.561Z"
+    }
+  ],
+  "labels": [
+    {
+      "id": "label-doc-8c048c6d7916",
+      "productName": "大补小鹌鹑",
+      "price": "22元/50g",
+      "ingredients": "刚出生的鹌鹑苗",
+      "productionDate": "2026-08-20",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鹌鹑.docx",
+      "updatedAt": "2026-08-24T04:05:36.158Z"
+    },
+    {
+      "id": "label-doc-9c85e6c0a8a2",
+      "productName": "蛋黄曲奇",
+      "price": "18.9元/50g",
+      "ingredients": "羊奶粉，富硒蛋黄",
+      "productionDate": "2026-08-17",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "蛋黄曲奇.docx",
+      "updatedAt": "2026-08-24T04:05:36.199Z"
+    },
+    {
+      "id": "label-doc-c4af254c7af1",
+      "productName": "蛋黄羊奶溶豆",
+      "price": "17.9元/50g",
+      "ingredients": "羊奶粉，蛋黄",
+      "productionDate": "2026-08-17",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "蛋黄羊奶溶豆.docx",
+      "updatedAt": "2026-08-24T04:05:36.223Z"
+    },
+    {
+      "id": "label-doc-5597859f3d30",
+      "productName": "鹅喉管圈 售价：8元",
+      "price": "8元",
+      "ingredients": "鹅的喉管",
+      "productionDate": "2026-08-14",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "鹅喉管.docx",
+      "updatedAt": "2026-08-24T04:05:36.248Z"
+    },
+    {
+      "id": "label-doc-0fa8472dd8ca",
+      "productName": "鹅心",
+      "price": "22元/80g",
+      "ingredients": "鹅心",
+      "productionDate": "2026-08-20",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鹅心.docx",
+      "updatedAt": "2026-08-24T04:05:36.268Z"
+    },
+    {
+      "id": "label-doc-ecd63e4ff812",
+      "productName": "荷包蛋",
+      "price": "18.9元/50g",
+      "ingredients": "羊奶粉，蛋黄",
+      "productionDate": "2026-08-17",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "荷包蛋.docx",
+      "updatedAt": "2026-08-24T04:05:36.285Z"
+    },
+    {
+      "id": "label-doc-c7db820480c8",
+      "productName": "香喷喷牛肝片",
+      "price": "19元/100g",
+      "ingredients": "农家散养黄牛生牛肝",
+      "productionDate": "2026-08-18",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "烘干牛肝片.docx",
+      "updatedAt": "2026-08-24T04:05:36.297Z"
+    },
+    {
+      "id": "label-doc-d8e86b8c18d6",
+      "productName": "烘干猪心 售价：19元/50g",
+      "price": "19元/50g",
+      "ingredients": "猪猪的小心心",
+      "productionDate": "2026-08-13",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "烘干猪心.docx",
+      "updatedAt": "2026-08-24T04:05:36.308Z"
+    },
+    {
+      "id": "label-doc-36a6d78378b7",
+      "productName": "华夫饼",
+      "price": "22元/2个",
+      "ingredients": "白羽鸡胸肉（去脂）/樱桃谷鸭鸭胸肉（去脂）, 羊奶粉，果蔬粉",
+      "productionDate": "2026-06-15",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "华夫饼.docx",
+      "updatedAt": "2026-08-24T04:05:36.321Z"
+    },
+    {
+      "id": "label-doc-0a0795a01cb9",
+      "productName": "黄瓜肉肉贴",
+      "price": "23元/80g",
+      "ingredients": "鸡胸肉，鸭胸肉，黄瓜",
+      "productionDate": "2026-07-28",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "黄瓜肉肉贴.docx",
+      "updatedAt": "2026-08-24T04:05:36.333Z"
+    },
+    {
+      "id": "label-doc-16b35cfdca18",
+      "productName": "黄瓜鸭肉贴 售价：23元/80g",
+      "price": "23元/80g",
+      "ingredients": "樱桃谷鸭鸭胸，黄瓜",
+      "productionDate": "2026-07-21",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "黄瓜鸭肉贴.docx",
+      "updatedAt": "2026-08-24T04:05:36.343Z"
+    },
+    {
+      "id": "label-doc-f716229e4be7",
+      "productName": "香酥火鸡脖  售价：12元/1根",
+      "price": "12元/1根",
+      "ingredients": "火鸡脖",
+      "productionDate": "2026-06-18",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "火鸡脖.docx",
+      "updatedAt": "2026-08-24T04:05:36.355Z"
+    },
+    {
+      "id": "label-doc-98b9dc909edb",
+      "productName": "香香脆脆鸡胸肉干",
+      "price": "26元/100g",
+      "ingredients": "白羽鸡鸡胸",
+      "productionDate": "2026-08-23",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鸡胸肉干.docx",
+      "updatedAt": "2026-08-24T04:05:36.367Z"
+    },
+    {
+      "id": "label-doc-3df4e18de665",
+      "productName": "鸡胸肉绕苹果 售价：22元/80g",
+      "price": "22元/80g",
+      "ingredients": "白羽鸡鸡胸肉，雪梨",
+      "productionDate": "2026-06-15",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "鸡胸肉绕苹果本.docx",
+      "updatedAt": "2026-08-24T04:05:36.378Z"
+    },
+    {
+      "id": "label-doc-577b8d6e25d6",
+      "productName": "假装是牛排",
+      "price": "28元/6根 约180g左右",
+      "ingredients": "牛肋骨，鸭胸肉",
+      "productionDate": "2026-08-20",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "假装是牛排.docx",
+      "updatedAt": "2026-08-24T04:05:36.393Z"
+    },
+    {
+      "id": "label-doc-9a5306d917d6",
+      "productName": "苦瓜酿肉",
+      "price": "23元/80g",
+      "ingredients": "樱桃谷鸭鸭胸肉，焯水苦瓜",
+      "productionDate": "2026-08-13",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "苦瓜酿肉.docx",
+      "updatedAt": "2026-08-24T04:05:36.403Z"
+    },
+    {
+      "id": "label-doc-bc8dab30ed99",
+      "productName": "榴莲饼干  售价：8元",
+      "price": "8元",
+      "ingredients": "白羽鸡鸡胸肉（去脂），MAG羊奶粉，燕麦粉，奶酪",
+      "productionDate": "2026-06-18",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "榴莲饼干.docx",
+      "updatedAt": "2026-08-24T04:05:36.414Z"
+    },
+    {
+      "id": "label-doc-e05093f220a4",
+      "productName": "榴莲奶片  售价：10元",
+      "price": "10元",
+      "ingredients": "MAG羊奶粉",
+      "productionDate": "2026-08-12",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "榴莲奶片.docx",
+      "updatedAt": "2026-08-24T04:05:36.426Z"
+    },
+    {
+      "id": "label-doc-04fb29d228ae",
+      "productName": "补钙鳗鱼骨",
+      "price": "28元/100g",
+      "ingredients": "鳗鱼骨，樱桃谷鸭鸭胸肉/白羽鸡鸡胸肉（去脂）",
+      "productionDate": "2026-07-25",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鳗鱼骨.docx",
+      "updatedAt": "2026-08-24T04:05:36.439Z"
+    },
+    {
+      "id": "label-doc-82f197f0c177",
+      "productName": "满籽多春鱼",
+      "price": "20元/12条",
+      "ingredients": "多春鱼",
+      "productionDate": "2026-08-18",
+      "storageMethod": "常温6个月，开袋即食",
+      "sourceFile": "满籽多春鱼.docx",
+      "updatedAt": "2026-08-24T04:05:36.452Z"
+    },
+    {
+      "id": "label-doc-6ced909cab26",
+      "productName": "奶酪淋面饼干",
+      "price": "15",
+      "ingredients": "白羽鸡鸡胸肉（去脂），MAG羊奶粉，燕麦粉，奶酪",
+      "productionDate": "2026-08-19",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "奶酪饼干.docx",
+      "updatedAt": "2026-08-24T04:05:36.466Z"
+    },
+    {
+      "id": "label-doc-eff89d61073e",
+      "productName": "超大根牛筋 售价：8元",
+      "price": "8元",
+      "ingredients": "牛筋，鸡胸肉/鸭胸肉",
+      "productionDate": "2026-08-20",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "牛蹄筋.docx",
+      "updatedAt": "2026-08-24T04:05:36.478Z"
+    },
+    {
+      "id": "label-doc-7c2a5b0b6303",
+      "productName": "耐磨的粽子",
+      "price": "24元/2个",
+      "ingredients": "鸭胸肉，鸡胸肉，牛膝骨",
+      "productionDate": "2026-08-20",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "牛膝骨.docx",
+      "updatedAt": "2026-08-24T04:05:36.495Z"
+    },
+    {
+      "id": "label-doc-e02caaac5ff7",
+      "productName": "鸭鸭藕夹",
+      "price": "23元/80g",
+      "ingredients": "樱桃谷鸭鸭胸肉（去脂），红花藕",
+      "productionDate": "2026-07-21",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "藕夹.docx",
+      "updatedAt": "2026-08-24T04:05:36.510Z"
+    },
+    {
+      "id": "label-doc-82700360d690",
+      "productName": "一口泡面",
+      "price": "35元/5饼",
+      "ingredients": "白羽鸡鸡胸肉，欧芹，mag羊奶粉，富硒鸡蛋黄",
+      "productionDate": "2026-08-23",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "泡面.docx",
+      "updatedAt": "2026-08-24T04:05:36.525Z"
+    },
+    {
+      "id": "label-doc-b9e26480e53d",
+      "productName": "秋葵鸡肉饼 售价：23元/80g",
+      "price": "23元/80g",
+      "ingredients": "白羽鸡鸡胸，焯水秋葵",
+      "productionDate": "2026-07-21",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "秋葵鸡肉饼.docx",
+      "updatedAt": "2026-08-24T04:05:36.540Z"
+    },
+    {
+      "id": "label-doc-c02c3d6918e0",
+      "productName": "秋葵鸭肉饼 售价：23元/80g",
+      "price": "23元/80g",
+      "ingredients": "樱桃谷鸭鸭胸，焯水秋葵",
+      "productionDate": "2026-07-21",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "秋葵鸭肉饼.docx",
+      "updatedAt": "2026-08-24T04:05:36.555Z"
+    },
+    {
+      "id": "label-doc-e859d0717ea3",
+      "productName": "烘干三文鱼尾巴",
+      "price": "8元/个",
+      "ingredients": "三文鱼尾巴",
+      "productionDate": "2026-08-17",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "三文鱼尾巴.docx",
+      "updatedAt": "2026-08-24T04:05:36.569Z"
+    },
+    {
+      "id": "label-doc-29d3bfa573d8",
+      "productName": "补钙鲨鱼骨",
+      "price": "29元/100g",
+      "ingredients": "鲨鱼骨，鸡胸肉",
+      "productionDate": "2026-08-11",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鲨鱼骨.docx",
+      "updatedAt": "2026-08-24T04:05:36.582Z"
+    },
+    {
+      "id": "label-doc-a94512d26804",
+      "productName": "兔耳朵酿肉  售价：28元/100g",
+      "price": "28元/100g",
+      "ingredients": "樱桃谷鸭鸭胸/白羽鸡鸡胸，兔耳朵，白芝麻",
+      "productionDate": "2026-08-22",
+      "storageMethod": "常温3个月，开袋后尽快食用不要受潮",
+      "sourceFile": "兔耳朵酿肉.docx",
+      "updatedAt": "2026-08-24T04:05:36.602Z"
+    },
+    {
+      "id": "label-doc-0b62a8f5d2b8",
+      "productName": "超大兔排  售价：30元/个",
+      "price": "30元/个",
+      "ingredients": "兔子的胸腔脊椎",
+      "productionDate": "2026-06-13",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "兔排.docx",
+      "updatedAt": "2026-08-24T04:05:36.616Z"
+    },
+    {
+      "id": "label-doc-561cdd419840",
+      "productName": "超大鸵鸟棒骨",
+      "price": "55元/个",
+      "ingredients": "鸵鸟的腿骨，白羽鸡鸡胸肉/樱桃谷鸭鸭胸肉",
+      "productionDate": "2026-08-17",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鸵鸟棒骨.docx",
+      "updatedAt": "2026-08-24T04:05:36.629Z"
+    },
+    {
+      "id": "label-doc-ce0d481e8c18",
+      "productName": "西瓜碗  售价：15元/1个",
+      "price": "15元/1个",
+      "ingredients": "羊奶粉，猪膀胱",
+      "productionDate": "2026-07-28",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "西瓜碗猪膀胱.docx",
+      "updatedAt": "2026-08-24T04:05:36.641Z"
+    },
+    {
+      "id": "label-doc-e759b6c50e85",
+      "productName": "虾青素鲜能饼",
+      "price": "35元/5根",
+      "ingredients": "白羽鸡鸡胸肉，鲜活基围虾，欧芹",
+      "productionDate": "2026-07-14",
+      "storageMethod": "常温6个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "虾饼.docx",
+      "updatedAt": "2026-08-24T04:05:36.655Z"
+    },
+    {
+      "id": "label-doc-8eb3d1de758d",
+      "productName": "小狗串烧",
+      "price": "35元/5根",
+      "ingredients": "白羽鸡胸肉（去脂），樱桃谷鸭鸭胸肉（去脂），牛皮棒",
+      "productionDate": "2026-06-15",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "小狗串烧.docx",
+      "updatedAt": "2026-08-24T04:05:36.666Z"
+    },
+    {
+      "id": "label-doc-bd6e243bd812",
+      "productName": "香酥大鸭脖",
+      "price": "10元",
+      "ingredients": "六和鸭脖",
+      "productionDate": "2026-08-17",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鸭脖.docx",
+      "updatedAt": "2026-08-24T04:05:36.677Z"
+    },
+    {
+      "id": "label-doc-6075ddeb504a",
+      "productName": "鸭肉莓莓派 售价：24元",
+      "price": "24元",
+      "ingredients": "樱桃谷鸭鸭胸肉（去脂），怡颗莓蓝莓",
+      "productionDate": "2026-06-17",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "鸭肉莓莓.docx",
+      "updatedAt": "2026-08-24T04:05:36.688Z"
+    },
+    {
+      "id": "label-doc-8214f444c658",
+      "productName": "鸭鸭薯片",
+      "price": "22元/50g",
+      "ingredients": "樱桃谷鸭鸭胸肉（去脂）",
+      "productionDate": "2026-07-24",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "鸭肉薯片.docx",
+      "updatedAt": "2026-08-24T04:05:36.699Z"
+    },
+    {
+      "id": "label-doc-83b3c0646d6d",
+      "productName": "甜甜圈 售价：14.9元/10cm",
+      "price": "14.9元/10cm",
+      "ingredients": "樱桃谷鸭鸭胸/白羽鸡鸡胸，牛皮圈",
+      "productionDate": "2026-08-13",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "鸭肉甜甜圈 - 大.docx",
+      "updatedAt": "2026-08-24T04:05:36.710Z"
+    },
+    {
+      "id": "label-doc-b84016f2338f",
+      "productName": "甜甜圈 售价：12.9元/8.5cm",
+      "price": "12.9元/8.5cm",
+      "ingredients": "樱桃谷鸭鸭胸/白羽鸡鸡胸，牛皮圈",
+      "productionDate": "2026-07-25",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "鸭肉甜甜圈.docx",
+      "updatedAt": "2026-08-24T04:05:36.725Z"
+    },
+    {
+      "id": "label-doc-207bf2f65144",
+      "productName": "麻花鸭食管  售价：12元/6根",
+      "price": "12元/6根",
+      "ingredients": "六和鸭食管",
+      "productionDate": "2026-08-14",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "鸭食管.docx",
+      "updatedAt": "2026-08-24T04:05:36.740Z"
+    },
+    {
+      "id": "label-doc-5cce064d944e",
+      "productName": "鸭心  售价：22元/80g",
+      "price": "22元/80g",
+      "ingredients": "鸭心",
+      "productionDate": "2026-07-01",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "鸭心.docx",
+      "updatedAt": "2026-08-24T04:05:36.751Z"
+    },
+    {
+      "id": "label-doc-cc7888db3496",
+      "productName": "鸭胸肉抱蛋",
+      "price": "22元/100g",
+      "ingredients": "樱桃谷鸭鸭胸，富硒鸡蛋黄",
+      "productionDate": "2026-08-17",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鸭胸肉抱蛋.docx",
+      "updatedAt": "2026-08-24T04:05:36.766Z"
+    },
+    {
+      "id": "label-doc-17a87b35814a",
+      "productName": "低敏降燥鸭胸肉干",
+      "price": "26元/100g",
+      "ingredients": "樱桃谷鸭鸭胸",
+      "productionDate": "2026-08-20",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鸭胸肉干.docx",
+      "updatedAt": "2026-08-24T04:05:36.777Z"
+    },
+    {
+      "id": "label-doc-4adc7bb54246",
+      "productName": "鸭鸭孢子甘蓝  售价：32元/80g",
+      "price": "32元/80g",
+      "ingredients": "鸭胸肉，孢子甘蓝",
+      "productionDate": "2026-07-15",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "鸭胸肉绕孢子甘蓝.docx",
+      "updatedAt": "2026-08-24T04:05:36.788Z"
+    },
+    {
+      "id": "label-doc-6fef99ad466b",
+      "productName": "鸭胸肉绕贝贝南瓜",
+      "price": "22元/80g",
+      "ingredients": "樱桃谷鸭鸭胸，贝贝南瓜",
+      "productionDate": "2026-08-16",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鸭胸肉绕南瓜.docx",
+      "updatedAt": "2026-08-24T04:05:36.800Z"
+    },
+    {
+      "id": "label-doc-714ab7f37d19",
+      "productName": "鸭胸肉绕秋葵条",
+      "price": "23元/80g",
+      "ingredients": "樱桃谷鸭鸭胸，焯水秋葵",
+      "productionDate": "2026-08-13",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鸭胸肉绕秋葵.docx",
+      "updatedAt": "2026-08-24T04:05:36.812Z"
+    },
+    {
+      "id": "label-doc-2d46d1c260ae",
+      "productName": "鸭胸肉绕雪梨",
+      "price": "22元/80g",
+      "ingredients": "樱桃谷鸭鸭胸，雪梨",
+      "productionDate": "2026-08-14",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鸭胸肉绕雪梨.docx",
+      "updatedAt": "2026-08-24T04:05:36.828Z"
+    },
+    {
+      "id": "label-doc-6f79bf74a99c",
+      "productName": "鸭胸肉绕羊扇骨  售价：15元/个",
+      "price": "15元/个",
+      "ingredients": "羊扇骨，鸭胸肉，洋甘菊",
+      "productionDate": "2026-07-20",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "鸭胸肉绕羊扇骨.docx",
+      "updatedAt": "2026-08-24T04:05:36.842Z"
+    },
+    {
+      "id": "label-doc-34bee5d92197",
+      "productName": "香脆鸭胗",
+      "price": "27元/6个",
+      "ingredients": "樱桃谷鸭鸭胗",
+      "productionDate": "2026-07-28",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "鸭胗.docx",
+      "updatedAt": "2026-08-24T04:05:36.855Z"
+    },
+    {
+      "id": "label-doc-8dd179ceb2e2",
+      "productName": "一整个羊蹄  售价：22元/个",
+      "price": "22元/个",
+      "ingredients": "羊蹄（已去脚缝的毛）",
+      "productionDate": "2026-06-17",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "羊蹄.docx",
+      "updatedAt": "2026-08-24T04:05:36.870Z"
+    },
+    {
+      "id": "label-doc-f1f79739a28f",
+      "productName": "绕肉咬咬棒",
+      "price": "19.9元/10根",
+      "ingredients": "樱桃谷鸭（去脂），牛皮棒",
+      "productionDate": "2026-07-28",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "咬咬棒.docx",
+      "updatedAt": "2026-08-24T04:05:36.885Z"
+    },
+    {
+      "id": "label-doc-37a750016554",
+      "productName": "一口披萨",
+      "price": "35元/5根",
+      "ingredients": "樱桃谷鸭鸭胸肉，红薯，西兰花，无盐芝士，富硒鸡蛋黄",
+      "productionDate": "2026-06-15",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "一口披萨.docx",
+      "updatedAt": "2026-08-24T04:05:36.901Z"
+    },
+    {
+      "id": "label-doc-7eb6655ac7c4",
+      "productName": "绕肉一米棒",
+      "price": "17.9元/1根",
+      "ingredients": "樱桃谷鸭/白羽鸡胸肉（去脂），超长牛皮棒",
+      "productionDate": "2026-07-22",
+      "storageMethod": "真空常温6个月，开袋后尽快食用，不要受潮，破袋后不建议食用。",
+      "sourceFile": "一米棒.docx",
+      "updatedAt": "2026-08-24T04:05:36.915Z"
+    },
+    {
+      "id": "label-doc-88aa3bea115e",
+      "productName": "银鲳鱼",
+      "price": "22元/5条",
+      "ingredients": "银鲳鱼",
+      "productionDate": "2026-08-22",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "银鲳鱼.docx",
+      "updatedAt": "2026-08-24T04:05:36.930Z"
+    },
+    {
+      "id": "label-doc-69214d2b53e0",
+      "productName": "银鲳鱼  售价：6元/1条",
+      "price": "6元/1条",
+      "ingredients": "银鲳鱼",
+      "productionDate": "2026-08-17",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "银鲳鱼x1.docx",
+      "updatedAt": "2026-08-24T04:05:36.942Z"
+    },
+    {
+      "id": "label-doc-25ad0588fdb5",
+      "productName": "月牙骨  售价：32元/1个",
+      "price": "32元/1个",
+      "ingredients": "鸭胸肉，牛月牙骨",
+      "productionDate": "2026-06-18",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "月牙骨.docx",
+      "updatedAt": "2026-08-24T04:05:36.953Z"
+    },
+    {
+      "id": "label-doc-f1e8148707d1",
+      "productName": "海苔芝士热狗棒",
+      "price": "35元/5根",
+      "ingredients": "海苔，无盐芝士，白羽鸡胸肉（去脂）",
+      "productionDate": "2026-06-15",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "芝士热狗棒.docx",
+      "updatedAt": "2026-08-24T04:05:36.965Z"
+    },
+    {
+      "id": "label-doc-297830197f5e",
+      "productName": "西瓜碗",
+      "price": "9.9元",
+      "ingredients": "去脂猪膀胱，羊奶粉",
+      "productionDate": "2026-07-22",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "猪膀胱.docx",
+      "updatedAt": "2026-08-24T04:05:36.975Z"
+    },
+    {
+      "id": "label-doc-32d012eb70fa",
+      "productName": "猪鞭麻花",
+      "price": "10",
+      "ingredients": "超韧可当牙线的猪鞭",
+      "productionDate": "2026-08-17",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "猪鞭麻花.docx",
+      "updatedAt": "2026-08-24T04:05:36.985Z"
+    },
+    {
+      "id": "label-doc-35561711bc22",
+      "productName": "烘干猪蛋蛋片",
+      "price": "19元/50g",
+      "ingredients": "西班牙猪睾丸",
+      "productionDate": "2026-08-17",
+      "storageMethod": "常温3个月，开袋即食",
+      "sourceFile": "猪蛋蛋.docx",
+      "updatedAt": "2026-08-24T04:05:36.996Z"
+    },
+    {
+      "id": "label-doc-ea6fe5d415f6",
+      "productName": "猪皮棒",
+      "price": "12元/1根",
+      "ingredients": "猪皮，鸭胸肉（去脂）",
+      "productionDate": "2026-06-17",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "猪皮棒.docx",
+      "updatedAt": "2026-08-24T04:05:37.006Z"
+    },
+    {
+      "id": "label-doc-79ea12c1fa05",
+      "productName": "莓果猪皮结 售价：15元/50g",
+      "price": "15元/50g",
+      "ingredients": "精修猪皮，莓果酱，鸭胸肉",
+      "productionDate": "2026-06-17",
+      "storageMethod": "常温3个月，开袋后尽快食用，不要受潮。",
+      "sourceFile": "猪皮莓果节.docx",
+      "updatedAt": "2026-08-24T04:05:37.017Z"
+    }
+  ],
+  "printRecords": [
+    {
+      "id": "print-33fc5dd3-786e-4309-aca5-dd206a05bba4",
+      "labelId": "label-doc-8c048c6d7916",
+      "labelName": "大补小鹌鹑",
+      "templateName": "经典信息标签",
+      "printerName": "lichi01",
+      "paperSize": "60x40",
+      "quantity": 1,
+      "status": "submitted",
+      "createdAt": "2026-08-24T14:32:13.828Z"
+    },
+    {
+      "id": "print-f398242d-70f5-4965-9721-12b3519dc923",
+      "labelId": "label-doc-8c048c6d7916",
+      "labelName": "大补小鹌鹑",
+      "templateName": "经典信息标签",
+      "printerName": "lichi01",
+      "paperSize": "60x40",
+      "quantity": 1,
+      "status": "submitted",
+      "createdAt": "2026-08-24T14:28:34.912Z"
+    },
+    {
+      "id": "print-76b43f9d-ca3f-4094-bb6a-6cf763437fb3",
+      "labelId": "label-doc-8c048c6d7916",
+      "labelName": "大补小鹌鹑",
+      "templateName": "经典信息标签",
+      "printerName": "lichi01",
+      "paperSize": "60x40",
+      "quantity": 1,
+      "status": "submitted",
+      "createdAt": "2026-08-24T14:27:26.766Z"
+    },
+    {
+      "id": "print-2717f127-3903-4d8b-ac66-b3caaf2b21d7",
+      "labelId": "label-doc-8c048c6d7916",
+      "labelName": "大补小鹌鹑",
+      "templateName": "经典信息标签",
+      "printerName": "lichi01",
+      "paperSize": "60x40",
+      "quantity": 1,
+      "status": "submitted",
+      "createdAt": "2026-08-24T13:14:03.304Z"
+    },
+    {
+      "id": "print-7b6e15bb-f791-4558-8e41-2a3d58ffab92",
+      "labelId": "label-doc-8c048c6d7916",
+      "labelName": "大补小鹌鹑",
+      "templateName": "经典信息标签",
+      "printerName": "lichi01",
+      "paperSize": "60x40",
+      "quantity": 1,
+      "status": "submitted",
+      "createdAt": "2026-08-24T12:56:21.420Z"
+    },
+    {
+      "id": "print-5eff9d85-3d32-4ebc-93e1-8c773d7afd28",
+      "labelId": "label-doc-8c048c6d7916",
+      "labelName": "大补小鹌鹑",
+      "templateName": "经典信息标签",
+      "printerName": "lichi01",
+      "paperSize": "60x40",
+      "quantity": 1,
+      "status": "submitted",
+      "createdAt": "2026-08-24T12:49:24.742Z"
+    },
+    {
+      "id": "print-fc890f2d-fb0b-42e7-b9c3-bbc7d325a100",
+      "labelId": "label-doc-8c048c6d7916",
+      "labelName": "大补小鹌鹑",
+      "templateName": "经典信息标签",
+      "printerName": "lichi01",
+      "paperSize": "60x40",
+      "quantity": 1,
+      "status": "submitted",
+      "createdAt": "2026-08-24T12:22:16.370Z"
+    },
+    {
+      "id": "print-976527b4-cc92-4df6-bb08-5e9673b9fa52",
+      "labelId": "label-doc-8c048c6d7916",
+      "labelName": "大补小鹌鹑",
+      "templateName": "经典信息标签",
+      "printerName": "lichi01",
+      "paperSize": "60x40",
+      "quantity": 1,
+      "status": "submitted",
+      "createdAt": "2026-08-24T12:16:38.908Z"
+    },
+    {
+      "id": "print-878f2abe-3071-42e0-9bd6-65cf53a70ca1",
+      "labelId": "label-doc-8c048c6d7916",
+      "labelName": "大补小鹌鹑",
+      "templateName": "经典信息标签",
+      "printerName": "lichi01",
+      "paperSize": "60x40",
+      "quantity": 1,
+      "status": "submitted",
+      "createdAt": "2026-08-24T12:11:47.493Z"
+    },
+    {
+      "id": "print-c8d9e6c4-565e-4edc-87a7-24a062972228",
+      "labelId": "label-doc-8c048c6d7916",
+      "labelName": "大补小鹌鹑",
+      "templateName": "经典信息标签",
+      "printerName": "lichi01",
+      "quantity": 1,
+      "status": "submitted",
+      "createdAt": "2026-08-24T11:47:54.038Z"
+    },
+    {
+      "id": "print-e785d1b7-c494-419a-959d-8601d43ab053",
+      "labelId": "label-doc-8c048c6d7916",
+      "labelName": "大补小鹌鹑",
+      "templateName": "经典信息标签",
+      "printerName": "lichi01",
+      "quantity": 1,
+      "status": "submitted",
+      "createdAt": "2026-08-24T11:37:13.148Z"
+    }
+  ]
+}

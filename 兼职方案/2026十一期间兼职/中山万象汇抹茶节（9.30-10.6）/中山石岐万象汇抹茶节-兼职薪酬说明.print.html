@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>中山石岐万象汇抹茶节 · 兼职薪酬说明</title>
+  <link rel="stylesheet" href="poster.css" />
+  <style>
+    .screen.duties .steps,
+    .screen.rules .steps {
+      flex: 1;
+    }
+
+    .screen.duties .steps li,
+    .screen.rules .steps li {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    .screen.duties .steps li::before,
+    .screen.rules .steps li::before {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  </style>
+  <script>
+    const page = new URLSearchParams(location.search).get("p");
+    if (page !== null) {
+      addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".screen").forEach((el, i) => {
+          el.style.display = String(i) === page ? "flex" : "none";
+        });
+      });
+    }
+  </script>
+</head>
+<body>
+  <section class="screen cover">
+    <div class="kicker">
+      <span>梨奇宠物零食摊</span>
+      <span class="stamp">兼职须知</span>
+    </div>
+    <div>
+      <p class="dates">9月30日 13:00—22:00<br>10月1日—6日 14:00—22:00</p>
+      <h1>这7天<br>工资怎么算</h1>
+    </div>
+    <div class="rule">
+      7天全勤拿<strong>800</strong>元。总营业额不超过<strong>5000</strong>元，没有提成；超过<strong>5000</strong>元后，多出来的营业额按<strong>4%</strong>提成。卖到2万元、超过2万元都继续算，不封顶。
+    </div>
+    <div class="grid-3">
+      <div class="metric">
+        <span>全勤底薪</span>
+        <b>800</b>
+        <span>7天 · 约14.04元/时</span>
+      </div>
+      <div class="metric gold">
+        <span>每天标准</span>
+        <b>1000</b>
+        <span>7天合计7000</span>
+      </div>
+      <div class="metric hot">
+        <span>卖到7000</span>
+        <b>880</b>
+        <span>结算880元</span>
+      </div>
+    </div>
+    <p class="footnote">中山石岐万象汇抹茶节。9月30日请在13:00前到。10月1日至6日14:00到岗。加班17元/小时，须双方确认。</p>
+  </section>
+
+  <section class="screen cream pay">
+    <div class="page-head">
+      <div>
+        <div>梨奇 · 中山石岐万象汇抹茶节</div>
+        <h2>怎么发钱</h2>
+      </div>
+      <div>01 / 04</div>
+    </div>
+    <div class="formula">
+      不超过 5000：拿 <em>800</em><br>
+      超过 5000：提成 =（营业额 − 5000）× <em>4%</em>
+    </div>
+    <div class="grid-2">
+      <div class="card dark">
+        <h3>全勤底薪</h3>
+        <p>800元，覆盖全部57小时。七天都到，不迟到、不早退。</p>
+      </div>
+      <div class="card">
+        <h3>如果没全勤</h3>
+        <p>底薪按800÷57×实际计薪工时。已经产生的提成照算，不另罚。</p>
+      </div>
+    </div>
+    <p class="lead">每天710元只是沟通进度。提成从7天合计超过5000元开始，多卖一元就多算一元。</p>
+    <div class="tier">
+      <span class="tag">保本</span>
+      <span>每天约710元</span>
+      <span>合计5000</span>
+      <span>工资800元</span>
+    </div>
+    <div class="tier standard">
+      <span class="tag">标准</span>
+      <span>每天1000元</span>
+      <span>合计7000</span>
+      <span>工资880元</span>
+    </div>
+    <div class="tier target">
+      <span class="tag">冲刺</span>
+      <span>每天1100元</span>
+      <span>合计7700</span>
+      <span>工资908元</span>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <h3>卖到6000元</h3>
+        <p>提成40元，结算840元，时薪14.74元。</p>
+      </div>
+      <div class="card dark">
+        <h3>到岗和加班</h3>
+        <p>9月30日13:00前到。10月1日至6日14:00到岗。加班17元/小时，须双方确认，不计入提成。</p>
+      </div>
+    </div>
+    <p class="footnote">卖到2万元、超过2万元仍按4%继续计算，不封顶。结算四舍五入到元。</p>
+  </section>
+
+  <section class="screen examples">
+    <div class="page-head">
+      <div>
+        <div>梨奇 · 中山石岐万象汇抹茶节</div>
+        <h2>四个例子</h2>
+      </div>
+      <div>02 / 04</div>
+    </div>
+    <p class="lead">都按7天全勤、没有加班。括号里是结算到元的金额。</p>
+    <div class="grid-2">
+      <div class="card">
+        <h3>还没到线 · 4000元</h3>
+        <p>提成 0元<br>工资 <b>800.00元</b><br>结算 800元 · 时薪 14.04元</p>
+      </div>
+      <div class="card">
+        <h3>刚好到线 · 5000元</h3>
+        <p>提成 0元<br>工资 <b>800.00元</b><br>结算 800元 · 时薪 14.04元</p>
+      </div>
+      <div class="card hot">
+        <h3>标准目标 · 7000元</h3>
+        <p>提成 80元<br>工资 <b>880元</b><br>结算 880元 · 时薪 15.44元</p>
+      </div>
+      <div class="card gold">
+        <h3>再往上卖 · 9000元</h3>
+        <p>提成 160元<br>工资 <b>960元</b><br>结算 960元 · 时薪 16.84元</p>
+      </div>
+    </div>
+    <div class="card dark">
+      <h3>每多卖25元，提成增加1元</h3>
+      <p>卖到6000元，提成40元，结算840元。卖到7700元，提成108元，结算908元。卖到2万元，提成600元，结算1400元。过2万元继续算。若7000元之外另有确认过的2小时加班，再加34元，结算914元。</p>
+    </div>
+  </section>
+
+  <section class="screen cream duties">
+    <div class="page-head">
+      <div>
+        <div>梨奇 · 中山石岐万象汇抹茶节</div>
+        <h2>你要做的事</h2>
+      </div>
+      <div>03 / 04</div>
+    </div>
+    <ol class="steps">
+      <li>独立开摊、收摊</li>
+      <li>独立看摊，保持摊位整洁</li>
+      <li>叫卖，主动接待顾客</li>
+      <li>介绍梨奇宠物零食，并做加购推荐</li>
+      <li>算账、收银、记账</li>
+      <li>打包产品</li>
+    </ol>
+    <div class="card">
+      <h3>什么算业绩</h3>
+      <p>正常收款计入。退款扣除。赠品和试吃不计。不允许自行打折。活动结束后统一结算，工资四舍五入到元。</p>
+    </div>
+    <div class="card dark">
+      <h3>每天收摊后会对你说四件事</h3>
+      <p>当日营业额、7天累计营业额、当前提成、当前预计工资。</p>
+    </div>
+  </section>
+
+  <section class="screen navy rules">
+    <div class="page-head">
+      <div>
+        <div>梨奇 · 中山石岐万象汇抹茶节</div>
+        <h2>违反会扣工资</h2>
+      </div>
+      <div>04 / 04</div>
+    </div>
+    <ol class="steps">
+      <li>未经允许，不得打折，不得赠送。少收多少扣多少；送出的按当时标价扣。</li>
+      <li>不得迟到、早退。这段时间不计薪，底薪按800÷57×实际计薪工时。提成照算，不另罚。</li>
+      <li>现场活动券和赠送，必须先跟店主确认。自己送出的，按当时标价扣。</li>
+      <li>不认可梨奇手作就不要接。接了不许诋毁品牌。造成不良影响，店主保留追责，不另扣固定金额。</li>
+      <li>预报下雨必须盖雨布。店主要求时把货搬进仓库。因此损坏的货按售价从工资扣，差额另追。</li>
+    </ol>
+    <p class="footnote">除上面五条，不另加扣款。吃饭时间计薪，人留在摊位。</p>
+  </section>
+</body>
+</html>

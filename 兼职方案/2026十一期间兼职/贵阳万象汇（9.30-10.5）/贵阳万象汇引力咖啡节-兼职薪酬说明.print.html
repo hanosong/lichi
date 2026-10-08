@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>贵阳万象汇引力咖啡节 · 兼职薪酬说明</title>
+  <link rel="stylesheet" href="poster.css" />
+  <style>
+    .screen.duties .steps,
+    .screen.rules .steps {
+      flex: 1;
+    }
+
+    .screen.duties .steps li,
+    .screen.rules .steps li {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    .screen.duties .steps li::before,
+    .screen.rules .steps li::before {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .screen.rules .steps li {
+      font-size: 24px;
+      line-height: 1.45;
+    }
+
+    .screen.pay,
+    .screen.examples {
+      justify-content: space-between;
+    }
+  </style>
+  <script>
+    const page = new URLSearchParams(location.search).get("p");
+    if (page !== null) {
+      addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".screen").forEach((el, i) => {
+          el.style.display = String(i) === page ? "flex" : "none";
+        });
+      });
+    }
+  </script>
+</head>
+<body>
+  <section class="screen cover">
+    <div class="kicker">
+      <span>梨奇宠物零食摊</span>
+      <span class="stamp">兼职须知</span>
+    </div>
+    <div>
+      <p class="dates">9月30日 17:00 签到<br>10月1日—5日 10:00—21:00</p>
+      <h1>这5天<br>工资怎么算</h1>
+    </div>
+    <div class="rule">
+      5天全勤拿<strong>550</strong>元。总营业额<strong>4500</strong>元及以下没有红包；卖到<strong>5000</strong>元红包50元，此后每多卖500元，红包增加40元。营业额越高，红包越高。
+    </div>
+    <div class="grid-3">
+      <div class="metric">
+        <span>全勤底薪</span>
+        <b>550</b>
+        <span>5天 · 10元/时</span>
+      </div>
+      <div class="metric gold">
+        <span>每天标准</span>
+        <b>1200</b>
+        <span>5天合计6000</span>
+      </div>
+      <div class="metric hot">
+        <span>卖到6000</span>
+        <b>680</b>
+        <span>红包130元</span>
+      </div>
+    </div>
+    <p class="footnote">贵阳万象汇引力咖啡节。9月30日17:00必须签到，当天不计薪。10月1日至5日10:00到岗。加班16元/小时，须双方确认。</p>
+  </section>
+
+  <section class="screen cream pay">
+    <div class="page-head">
+      <div>
+        <div>梨奇 · 贵阳万象汇引力咖啡节</div>
+        <h2>怎么发钱</h2>
+      </div>
+      <div>01 / 04</div>
+    </div>
+    <div class="formula">
+      4500及以下：红包 <em>0</em><br>
+      4500—5000：红包 =（营业额 − 4500）× <em>10%</em><br>
+      超过5000：红包 = 50 +（营业额 − 5000）× <em>8%</em>
+    </div>
+    <div class="grid-2">
+      <div class="card dark">
+        <h3>全勤底薪</h3>
+        <p>550元，覆盖全部55小时。五天都到，不迟到、不早退。</p>
+      </div>
+      <div class="card">
+        <h3>如果没全勤</h3>
+        <p>底薪按550÷55×实际计薪工时。已经产生的提成照算，不另罚。</p>
+      </div>
+    </div>
+    <p class="lead">每天900元只是沟通进度。红包从5天合计超过4500元开始连续计算，不需要凑满整档。</p>
+    <div class="tier">
+      <span class="tag">保本</span>
+      <span>每天900元</span>
+      <span>合计4500</span>
+      <span>工资550元</span>
+    </div>
+    <div class="tier standard">
+      <span class="tag">标准</span>
+      <span>每天1200元</span>
+      <span>合计6000</span>
+      <span>工资680元</span>
+    </div>
+    <div class="tier target">
+      <span class="tag">冲刺</span>
+      <span>每天1320元</span>
+      <span>合计6600</span>
+      <span>工资728元</span>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <h3>9月30日签到</h3>
+        <p>17:00必须到场。当天不计薪、不算营业额。不到场就更换兼职。</p>
+      </div>
+      <div class="card dark">
+        <h3>到岗和加班</h3>
+        <p>10月1日至5日10:00到岗，21:00结束。加班16元/小时，须双方确认，不计入提成。</p>
+      </div>
+    </div>
+    <p class="footnote">卖到5000元红包50元，此后每多卖500元，红包增加40元，不封顶。测算到分，结算四舍五入到元。</p>
+  </section>
+
+  <section class="screen examples">
+    <div class="page-head">
+      <div>
+        <div>梨奇 · 贵阳万象汇引力咖啡节</div>
+        <h2>红包档位</h2>
+      </div>
+      <div>02 / 04</div>
+    </div>
+    <p class="lead">都按5天全勤、没有加班。档位之间连续计算，不需要凑满整档。</p>
+    <div class="grid-2">
+      <div class="card">
+        <h3>4500元及以下</h3>
+        <p>红包 0元<br>全勤工资 <b>550元</b></p>
+      </div>
+      <div class="card">
+        <h3>总营业额 · 5000元</h3>
+        <p>红包 50元<br>全勤工资 <b>600元</b></p>
+      </div>
+      <div class="card">
+        <h3>总营业额 · 5500元</h3>
+        <p>红包 90元<br>全勤工资 <b>640元</b></p>
+      </div>
+      <div class="card gold">
+        <h3>标准目标 · 6000元</h3>
+        <p>红包 130元<br>全勤工资 <b>680元</b></p>
+      </div>
+      <div class="card">
+        <h3>总营业额 · 6500元</h3>
+        <p>红包 170元<br>全勤工资 <b>720元</b></p>
+      </div>
+      <div class="card hot">
+        <h3>总营业额 · 7000元</h3>
+        <p>红包 210元<br>全勤工资 <b>760元</b></p>
+      </div>
+    </div>
+    <div class="card dark">
+      <h3>过5000元后，每多卖500元，红包增加40元</h3>
+      <p>卖到5000元，红包50元，工资600元；卖到5500元，红包90元，工资640元；卖到6500元，红包170元，工资720元。6000元另有确认过的2小时加班，再加32元，结算712元。超过7000元后继续累计，不封顶。</p>
+    </div>
+  </section>
+
+  <section class="screen cream duties">
+    <div class="page-head">
+      <div>
+        <div>梨奇 · 贵阳万象汇引力咖啡节</div>
+        <h2>你要做的事</h2>
+      </div>
+      <div>03 / 04</div>
+    </div>
+    <ol class="steps">
+      <li>独立开摊、收摊</li>
+      <li>独立看摊，保持摊位整洁</li>
+      <li>叫卖，主动接待顾客</li>
+      <li>介绍梨奇宠物零食，并做加购推荐</li>
+      <li>算账、收银、记账</li>
+      <li>打包产品</li>
+    </ol>
+    <div class="card">
+      <h3>什么算业绩</h3>
+      <p>正常收款计入。退款扣除。赠品和试吃不计。不允许自行打折。按5天总营业额结算，工资四舍五入到元。</p>
+    </div>
+    <div class="card dark">
+      <h3>每天收摊后会对你说四件事</h3>
+      <p>当日营业额、5天累计营业额、当前销售红包、当前预计工资。</p>
+    </div>
+  </section>
+
+  <section class="screen navy rules">
+    <div class="page-head">
+      <div>
+        <div>梨奇 · 贵阳万象汇引力咖啡节</div>
+        <h2>违反会扣工资</h2>
+      </div>
+      <div>04 / 04</div>
+    </div>
+    <ol class="steps">
+      <li>未经允许，不得打折，不得赠送。少收多少扣多少；送出的按当时标价扣。</li>
+      <li>不得迟到、早退。这段时间不计薪，底薪按550÷55×实际计薪工时。提成照算，不另罚。</li>
+      <li>现场活动券和赠送，必须先跟店主确认。自己送出的，按当时标价扣。</li>
+      <li>不认可梨奇手作就不要接。接了不许诋毁品牌。造成不良影响，店主保留追责，不另扣固定金额。</li>
+      <li>预报下雨必须盖雨布。店主要求时把货搬进仓库。因此损坏的货按售价从工资扣，差额另追。</li>
+    </ol>
+    <p class="footnote">除上面五条，不另加扣款。吃饭时间计薪，人留在摊位。9月30日17:00必须签到，当天不计薪；不到场则更换兼职。</p>
+  </section>
+</body>
+</html>

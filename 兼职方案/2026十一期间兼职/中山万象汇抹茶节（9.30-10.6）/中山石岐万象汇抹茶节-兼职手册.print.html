@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>中山石岐万象汇抹茶节 · 兼职手册</title>
+  <link rel="stylesheet" href="poster.css" />
+  <style>
+    .screen.pay .steps,
+    .screen.duties .steps,
+    .screen.rules .steps {
+      flex: 1;
+    }
+
+    .screen.pay .steps li,
+    .screen.duties .steps li,
+    .screen.rules .steps li {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    .screen.pay .steps li::before,
+    .screen.duties .steps li::before,
+    .screen.rules .steps li::before {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  </style>
+  <script>
+    const page = new URLSearchParams(location.search).get("p");
+    if (page !== null) {
+      addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".screen").forEach((el, i) => {
+          el.style.display = String(i) === page ? "flex" : "none";
+        });
+      });
+    }
+  </script>
+</head>
+<body>
+  <section class="screen cover">
+    <div class="kicker">
+      <span>梨奇宠物零食摊</span>
+      <span class="stamp">兼职手册</span>
+    </div>
+    <div>
+      <p class="dates">9月30日 13:00—22:00<br>10月1日—6日 14:00—22:00</p>
+      <h1>怎么干活<br>怎么拿钱</h1>
+    </div>
+    <div class="rule">
+      7天全勤拿<strong>800</strong>元。总营业额超过<strong>5000</strong>元的部分，按<strong>4%</strong>发销售红包。卖到<strong>2万</strong>继续算，超过2万也继续，没有上限。
+    </div>
+    <div class="grid-3">
+      <div class="metric">
+        <span>全勤底薪</span>
+        <b>800</b>
+        <span>7天 · 约14.04元/时</span>
+      </div>
+      <div class="metric gold">
+        <span>红包起点</span>
+        <b>5000</b>
+        <span>超出部分才有红包</span>
+      </div>
+      <div class="metric hot">
+        <span>卖到2万</span>
+        <b>1400</b>
+        <span>红包600 · 结算1400</span>
+      </div>
+    </div>
+    <p class="footnote">中山石岐万象汇抹茶节。9月30日13:00前到。10月1日至6日14:00到岗。卖得越多，红包越多。</p>
+  </section>
+
+  <section class="screen cream pay">
+    <div class="page-head">
+      <div>
+        <div>梨奇 · 中山石岐万象汇抹茶节</div>
+        <h2>销售红包</h2>
+      </div>
+      <div>01 / 03</div>
+    </div>
+    <div class="formula">
+      不超过 5000：拿 <em>800</em><br>
+      超过 5000：红包 =（营业额 − 5000）× <em>4%</em>
+    </div>
+    <ol class="steps">
+      <li>总营业额5000元：红包0元，工资800元。</li>
+      <li>卖到7000元：红包80元，结算880元。</li>
+      <li>卖到10000元：红包200元，结算1000元。</li>
+      <li>卖到15000元：红包400元，结算1200元。</li>
+      <li>卖到20000元：红包600元，结算1400元。</li>
+      <li>卖到25000元：红包800元，结算1600元。过了2万继续加。</li>
+    </ol>
+    <p class="footnote">红包按超出金额连续计算，不凑整档。每多卖25元，红包增加1元。每天先看710、1000、1100元；冲2万则每天约2860元。结算按7天总数，四舍五入到元。</p>
+  </section>
+
+  <section class="screen duties">
+    <div class="page-head">
+      <div>
+        <div>梨奇 · 中山石岐万象汇抹茶节</div>
+        <h2>工作注意</h2>
+      </div>
+      <div>02 / 03</div>
+    </div>
+    <ol class="steps">
+      <li>9月30日13:00前到，工作到22:00。10月1日至6日14:00到岗，工作到22:00。</li>
+      <li>独立开摊、收摊，货物自己点清。</li>
+      <li>主动叫卖。顾客靠近就招呼，先问宠物种类、年龄、体型和偏好。</li>
+      <li>推荐一款主品，再推荐一款搭配或加购，结账前再问一次。</li>
+      <li>算账、收银、记账，当场核对。然后打包产品。</li>
+      <li>保持摊位整洁。吃饭照常计薪，人留在摊位，不长时间玩手机。</li>
+      <li>收摊后对四件事：当天营业额、7天累计、当前红包、预计工资。</li>
+    </ol>
+    <p class="footnote">约定时间之外的加班按17元/小时，须双方确认，不计入红包。没全勤时，底薪按800÷57×实际计薪工时，红包仍按总营业额结算。</p>
+  </section>
+
+  <section class="screen navy rules">
+    <div class="page-head">
+      <div>
+        <div>梨奇 · 中山石岐万象汇抹茶节</div>
+        <h2>这些会扣工资</h2>
+      </div>
+      <div>03 / 03</div>
+    </div>
+    <ol class="steps">
+      <li>未经允许，不得打折，不得赠送。少收多少扣多少；送出的按当时标价扣。</li>
+      <li>不得迟到、早退。这段时间不计薪，底薪按800÷57×实际计薪工时。红包照算，不另罚。</li>
+      <li>现场活动券和赠送，必须先跟店主确认。自己送出的，按当时标价扣。</li>
+      <li>不认可梨奇手作就不要接。接了不许诋毁品牌。造成不良影响，店主保留追责，不另扣固定金额。</li>
+      <li>预报下雨必须盖雨布。店主要求时把货搬进仓库。因此损坏的货按售价从工资扣，差额另追。</li>
+    </ol>
+    <p class="footnote">正常收款计入业绩，退款扣除，赠品和试吃不计。活动结束后统一结算。除上面五条，不另加扣款。</p>
+  </section>
+</body>
+</html>

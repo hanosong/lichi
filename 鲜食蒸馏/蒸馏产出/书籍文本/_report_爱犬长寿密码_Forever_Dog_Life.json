@@ -1,0 +1,38 @@
+{
+  "source": "爱犬长寿密码-The_Forever_Dog_Life.pdf",
+  "sizeMB": 300.29,
+  "numPages": 573,
+  "pagesWithText": 556,
+  "emptyPageCount": 17,
+  "emptyPagesSample": [
+    1,
+    80,
+    81,
+    82,
+    152,
+    153,
+    183,
+    238,
+    239,
+    258,
+    259,
+    328,
+    329,
+    465,
+    466,
+    492,
+    516
+  ],
+  "totalChars": 348826,
+  "totalBytes": 362586,
+  "outputMB": 0.35,
+  "parts": [
+    {
+      "file": "爱犬长寿密码_Forever_Dog_Life.txt",
+      "firstPage": 1,
+      "lastPage": 573,
+      "bytes": 362586,
+      "chars": 359605
+    }
+  ]
+}
